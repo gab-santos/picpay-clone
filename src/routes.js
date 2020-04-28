@@ -37,6 +37,7 @@ export default function Routes() {
   return (
     <NavigationContainer>
       <Navigator
+        initialRouteName="Home"
         screenOptions={({ route, navigation }) => ({
           tabBarIcon: ({ color, size, focused }) => {
             if (route.name === "Pay")
